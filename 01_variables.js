@@ -1,4 +1,4 @@
-console.log("Variables");
+console.log("Variables in JS");
 
 const accountId = 144553
 let accountEmail = "alok@gmail.com"
