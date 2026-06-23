@@ -1,4 +1,4 @@
-console.log("Heelo Js");
+console.log("Variables");
 
 const accountId = 144553
 let accountEmail = "alok@gmail.com"
