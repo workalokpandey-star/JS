@@ -1,4 +1,4 @@
-console.log("Data Types");
+console.log("Data Types in Js");
 
 "use strict" // treat all JS code as newer version
 
@@ -25,5 +25,5 @@ let state;
 // object
 
 console.log(typeof "Alok");
-console.log(typeof null); // object
+console.log(typeof null); // object -> this is js problem 
 console.log(typeof undefined); // undefined
