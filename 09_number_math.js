@@ -47,6 +47,43 @@ const max = 20;
 console.log(Math.floor(Math.random() * (max - min + 1)) + min);
 
 
+// 🔥 Interview Cheat Sheet
+// Number()
+
+// Converts the whole string.
+
+// Number("100");      // 100
+// Number("100px");    // NaN
+// Number("10.5");     // 10.5
+// parseInt()
+
+// Reads until an invalid character.
+
+// parseInt("100px");    // 100
+// parseInt("10.99");    // 10
+// parseInt("abc100");   // NaN
+// parseFloat()
+
+// Reads floating-point numbers until an invalid character.
+
+// parseFloat("10.55abc"); // 10.55
+// parseFloat("100px");    // 100
+// parseFloat("abc10");    // NaN
+// isNaN() vs Number.isNaN()
+// isNaN("Hello");          // true
+// Number.isNaN("Hello");   // false
+
+// isNaN(NaN);              // true
+// Number.isNaN(NaN);       // true
+// Easy way to remember
+// isNaN() → Converts first, then checks.
+// Number.isNaN() → Checks only; no conversion.
+// Number.isInteger()
+// Number.isInteger(10);    // true
+// Number.isInteger(10.5);  // false
+// Number.isInteger("10");  // false
+
+
 
 
 
