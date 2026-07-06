@@ -41,14 +41,14 @@ console.log("====================Testing===================");
 
 // console.log(new Date(2026, 12, 1)); 
 
+// function test() {
+//   console.log(a);
 
+//   var a = 5;
+//   function a() {}
+//   console.log(a);
+// }
 
-//
-
-
-
-
-
-
+// test();
 
 
